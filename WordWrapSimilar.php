@@ -1,8 +1,5 @@
 <?php
 
-namespace Galoa\ExerciciosPhp\TextWrap;
-
-
 interface TextWrapInterface {
  
   public function textWrap(string $text, int $length): array;
